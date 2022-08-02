@@ -1,0 +1,266 @@
+%-------------------------
+% Resume in Latex
+% Author : Abey George
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{graphicx}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\RequirePackage{tikz}
+\RequirePackage{xcolor}
+\RequirePackage{fontawesome}
+\usepackage{tikz}
+\usetikzlibrary{svg.path}
+
+
+\definecolor{cvblue}{HTML}{0E5484}
+\definecolor{black}{HTML}{130810}
+\definecolor{darkcolor}{HTML}{0F4539}
+\definecolor{cvgreen}{HTML}{3BD80D}
+\definecolor{taggreen}{HTML}{00E278}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{DCDCDC}
+\colorlet{name}{black}
+\colorlet{tagline}{darkcolor}
+\colorlet{heading}{darkcolor}
+\colorlet{headingrule}{cvblue}
+\colorlet{accent}{darkcolor}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+% \pagestyle{fancy}
+% \fancyhf{}  % clear all header and footer fields
+% \fancyfoot{}
+% \renewcommand{\headrulewidth}{0pt}
+% \renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\large#1} & \textbf{\small #2} \\
+      \textit{\large#3} & \textit{\small #4} \\
+      
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{2pt}
+}
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+
+\newcommand\sbullet[1][.5]{\mathbin{\vcenter{\hbox{\scalebox{#1}{$\bullet$}}}}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+
+\begin{center}
+    {\Huge \scshape Palak Batra} \\ \vspace{1pt}
+    \small \href{tel:+xxxxxxxxxxxx}{ \raisebox{-0.1\height}\faPhone\ \underline{+91-9991029976} ~} \href{mailto:palak99batra@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{Gmail}} ~ 
+    \href{https://www.linkedin.com/in/palak-batra-424971147/}{\raisebox{-0.2\height}\faLinkedinSquare\ \underline{Linkedin/palakbatra}}  ~
+    \href{https://github.com/palakbatra1999}{\raisebox{-0.2\height}
+    \faGithub\ \underline{Github/palakbatra}}   ~
+     \href{https://palakbatra.netlify.app/} 
+      \ \underline{palakbatra.com}
+   
+      \vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{EDUCATION}
+  \resumeSubHeadingListStart
+    \resumeSubheading  
+      {B.Tech(Electronics and Communication)}{Sonepat, Haryana}
+      {Deenbandhu Chhotu Ram University of Science and Technology }{August 2017 - July 2021 }
+      \resumeItem {CGPA : 7.61}
+                
+  \resumeSubHeadingListEnd
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Class XII (CBSE)}{Karnal,India }
+      {RS Public Senior Secondary }{April 2014 - June 2016}
+      \resumeItem {Percentage : 89\%}
+     
+  \resumeSubHeadingListEnd
+  
+%-----------INVOLVEMENT---------------
+\section{WORK EXPERIENCE}
+    \resumeSubHeadingListStart
+        \resumeSubheading{\textbf{Fidelity International} }{09 2021 -- Present}{\underline{Technology Graduate Associate-1}}{Gurugram, Haryana}
+            \resumeItemListStart
+                \resumeItem{\normalsize{{Built an automation utility for the Reconciliation of trades and\textbf{ reduced the time required for Recon of trades by 90\% .} }}}
+               \resumeItem{\normalsize{{Implemented the project using  Control-M jobs and implemented Python,\textbf{Unix shell scripts.}}}}
+                \resumeItem{\normalsize{{Built \textbf{Spotcheck Fund factsheet} tool which is now being used by Business Analysts to reconcile the FIL and Morningstar trade data to check for discrepancies.}}}
+              
+            \resumeItemListEnd
+          \resumeSubheading       {Coding Ninjas \href{https://drive.google.com/file/d/1KFCK9_ofQw2xCs-mfmr3UFN8SAJVY2TU/view?usp=sharing}{\raisebox{-0.1\height}\faExternalLink }}{07 2020 -- 09 2020} 
+      {\underline{Teaching Assistant(TA)}}{Pitampura, New Delhi} 
+      \resumeItemListStart
+        \resumeItem{\normalsize{ { My role was to mentor students, explained the concepts of \textbf{Data Structures and Algorithms.}}}} 
+         \resumeItem{\normalsize{ {I debugged student’s codes and optimized them. }}} 
+        \resumeItemListEnd
+    \resumeSubHeadingListEnd
+ \vspace{-5pt}
+
+
+
+%-----------PROJECTS-----------
+\section{PROJECTS}
+ \vspace{-5pt}
+    \resumeSubHeadingListStart
+       \resumeProjectHeading
+          {\href{}{\textbf{\large{Spotcheck Fund Factsheet}} } $|$ \large{\underline{ Python Django framework, HTML, CSS,selenium tool}}}{September 2021}
+            \vspace{-5pt}
+          \resumeItemListStart
+            \resumeItem{\normalsize{Made a  framework that takes fund factsheets and compares the data based on the required attributes with different competitor companies.  After recognizing the differences it highlights the anomalies .\textbf{Reduced the Manual work and automated the work}.}}
+
+          \resumeItemListEnd 
+          \vspace{-13pt}
+          
+      \resumeProjectHeading
+          {\href{}{\textbf{\large{Track It}} } $|$ \large{\underline{ Android Studio , Rest API,Volley Library }}}{August 2020}
+             \vspace{-5pt}
+          \resumeItemListStart
+            \resumeItem{\normalsize{Coronavirus (COVID-19) Tracker App Using REST API & Volley Library. \textbf{easy tracking of COVID Cases}.}}
+           
+          \resumeItemListEnd
+          \vspace{-18pt}
+          
+          \resumeProjectHeading
+          {\href{}{\textbf{\large{Home Automation Using Google Assistant}}} $|$ \large{\underline{ IOT, IFTTT, NodeMCU, Adafruit}}}{April 2021}
+             \vspace{-5pt}
+          \resumeItemListStart
+            \resumeItem{\normalsize{Created a smart home environment using the functionality of NodeMCU and Adafruit server.Implemented Internet of Things(IoT) by integrating several devices such as fans, light bulbs, water motor pumps. \textbf{Provides round-the-clock security, real-time status of the application, temperature control.} }}
+            
+          \resumeItemListEnd 
+          
+    \resumeSubHeadingListEnd
+
+\vspace{-5pt}
+%
+
+%-----------PROGRAMMING SKILLS-----------
+\section{TECHNICAL SKILLS}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{\normalsize{Languages:}}{ \normalsize{C++, Core Java, CSS, HTML, SQL, XML}} \\
+     \textbf{\normalsize{Developer Tools:}}{ \normalsize{VS Code, Android Studio}} \\
+     \textbf{\normalsize{Technologies/Frameworks:}}{\normalsize{ Linux, GitHub, Visual Studio Code, Git}} \\
+    }}
+ \end{itemize}
+ \vspace{-5pt}
+
+
+
+ 
+ %-----------CERTIFICATIONS---------------
+\section{CERTIFICATIONS}
+
+$\sbullet[.75] \hspace{0.1cm}$ {AWS certified cloud practitioner
+ \href{https://www.credly.com/badges/b259c09e-8575-44a0-a4a9-34e161522130/public_url}{\raisebox{-0.1\height}\faExternalLink }} \hspace{1cm}
+$\sbullet[.75] \hspace{0.1cm}$ {{Core Java  }\href{https://drive.google.com/file/d/1mMfWEyZXt8MBN75GRQW8C3-oUpxlVm0b/view?usp=sharing}{\raisebox{-0.1\height}\faExternalLink }} \hspace{1cm}
+$\sbullet[.75] \hspace{0.2cm}${\href{} {Command Line in Unix - Cornerstone}}\\
+
+$\sbullet[.75] \hspace{0.2cm}${\href{}{Data Structures and Algorithms - Coding Blocks}} \hspace{0.5cm} \\
+
+\section{ACHIEVEMENTS}
+$\sbullet[.75] \hspace{0.2cm}${\href{}{Secured rank 1429 in TCS Codevita pre qualifier round.}} \hspace{1cm}\\
+$\sbullet[.75] \hspace{0.2cm}${\href{}{Won 1st prize in Nukkad at NIT Kurukshetra
+'18.}} \hspace{1cm}\\
+$\sbullet[.75] \hspace{0.2cm}${\href{}{Coordinator of dramatics society of college (JZAA) , organised various events in cultural fest i.e Stage Play , Mimicry.}} \hspace{1cm}\\
+
+\end{document}
