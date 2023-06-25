@@ -153,41 +153,25 @@
     \href{https://www.linkedin.com/in/palak-batra-424971147/}{\raisebox{-0.2\height}\faLinkedinSquare\ \underline{Linkedin/palakbatra}}  ~
     \href{https://github.com/palakbatra1999}{\raisebox{-0.2\height}
     \faGithub\ \underline{Github/palakbatra}}   ~
-     \href{https://palakbatra.netlify.app/} 
-      \ \underline{palakbatra.com}
+     \href{https://palakbatra.netlify.app/}{\ \underline{palakbatra.com}} ~
    
       \vspace{-8pt}
 \end{center}
 
 
-%-----------EDUCATION-----------
-\section{EDUCATION}
-  \resumeSubHeadingListStart
-    \resumeSubheading  
-      {B.Tech(Electronics and Communication)}{Sonepat, Haryana}
-      {Deenbandhu Chhotu Ram University of Science and Technology }{August 2017 - July 2021 }
-      \resumeItem {CGPA : 7.61}
-                
-  \resumeSubHeadingListEnd
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Class XII (CBSE)}{Karnal,India }
-      {RS Public Senior Secondary }{April 2014 - June 2016}
-      \resumeItem {Percentage : 89\%}
-     
-  \resumeSubHeadingListEnd
+
   
 %-----------INVOLVEMENT---------------
 \section{WORK EXPERIENCE}
     \resumeSubHeadingListStart
-        \resumeSubheading{\textbf{Fidelity International} }{09 2021 -- Present}{\underline{Technology Graduate Associate-1}}{Gurugram, Haryana}
+        \resumeSubheading{\textbf{Fidelity International} }{09 2021 -- Present}{\underline{Software Engineer-1}}{Gurugram, Haryana}
             \resumeItemListStart
-                \resumeItem{\normalsize{{Built an automation utility for the Reconciliation of trades and\textbf{ reduced the time required for Recon of trades by 90\% .} }}}
-               \resumeItem{\normalsize{{Implemented the project using  Control-M jobs and implemented Python,\textbf{Unix shell scripts.}}}}
-                \resumeItem{\normalsize{{Built \textbf{Spotcheck Fund factsheet} tool which is now being used by Business Analysts to reconcile the FIL and Morningstar trade data to check for discrepancies.}}}
+                \resumeItem{\normalsize{{Worked on building a \textbf{single-page application} to automate the Reconciliation of trades and funds using React.JS in a 4-person team and\textbf{ increased the efficiency of Business users by 60\% .} }}}
+               \resumeItem{\normalsize{{Worked on various seasonal updates for multiple web pages, \textbf{automated internal processes} and used native AWS services like Cloudwatch, Parameter Store to build analytics updates.}}}
+                \resumeItem{\normalsize{{Built \textbf{Spotcheck Fund factsheet} tool which Business Analysts are now using to reconcile the FIL and Morningstar trade data to check for discrepancies.}}}
               
             \resumeItemListEnd
-          \resumeSubheading       {Coding Ninjas \href{https://drive.google.com/file/d/1KFCK9_ofQw2xCs-mfmr3UFN8SAJVY2TU/view?usp=sharing}{\raisebox{-0.1\height}\faExternalLink }}{07 2020 -- 09 2020} 
+          \resumeSubheading       {Coding Ninjas \href{https://drive.google.com/file/d/1XXikLmjhdyZF7kfhx_U-g0IxV-UIVue9/view?usp=sharing}{\raisebox{-0.1\height}\faExternalLink }}{09 2020 -- 01 2021} 
       {\underline{Teaching Assistant(TA)}}{Pitampura, New Delhi} 
       \resumeItemListStart
         \resumeItem{\normalsize{ { My role was to mentor students, explained the concepts of \textbf{Data Structures and Algorithms.}}}} 
@@ -203,41 +187,60 @@
  \vspace{-5pt}
     \resumeSubHeadingListStart
        \resumeProjectHeading
-          {\href{}{\textbf{\large{Spotcheck Fund Factsheet}} } $|$ \large{\underline{ Python Django framework, HTML, CSS,selenium tool}}}{September 2021}
+          {\href{}{\textbf{\large{Spotcheck Fund Factsheet}} } $|$ \large{\underline{ Python, Django framework, HTML, CSS, selenium tool}}}{September 2021}
             \vspace{-5pt}
           \resumeItemListStart
-            \resumeItem{\normalsize{Made a  framework that takes fund factsheets and compares the data based on the required attributes with different competitor companies.  After recognizing the differences it highlights the anomalies .\textbf{Reduced the Manual work and automated the work}.}}
+            \resumeItem{\normalsize{Took complete ownership of building a tool that fetches the data from \textbf{Exposed APIs} of Fidelity and its competitor companies and compares it on the basis of favorable attributes provided by the business. 
+            Highlights the discrepancies upon discovery. \textbf{Reduced the Manual work by 90\%. }.}}
 
           \resumeItemListEnd 
           \vspace{-13pt}
-          
+
+            \resumeProjectHeading
+          {\href{}{\textbf{\large{Home Automation Using Google Assistant}}} $|$ \large{\underline{ IoT, IFTTT, NodeMCU, Adafruit}}}{April 2021}
+             \vspace{-5pt}
+          \resumeItemListStart
+            \resumeItem{\normalsize{Created a smart home environment using the functionality of NodeMCU and Adafruit server.Implemented the Internet of Things(IoT) by integrating several devices such as fans, light bulbs, and water motor pumps. \textbf{Provides round-the-clock security, real-time status of the application, and temperature control.} }}
+            
+          \resumeItemListEnd 
+           \vspace{-13pt}
       \resumeProjectHeading
           {\href{}{\textbf{\large{Track It}} } $|$ \large{\underline{ Android Studio , Rest API,Volley Library }}}{August 2020}
              \vspace{-5pt}
           \resumeItemListStart
-            \resumeItem{\normalsize{Coronavirus (COVID-19) Tracker App Using REST API & Volley Library. \textbf{easy tracking of COVID Cases}.}}
+      \resumeItem{\normalsize{Coronavirus (COVID-19) Tracker App Using REST API & Volley Library. \textbf{easy tracking of COVID Cases}.}}
            
           \resumeItemListEnd
           \vspace{-18pt}
           
-          \resumeProjectHeading
-          {\href{}{\textbf{\large{Home Automation Using Google Assistant}}} $|$ \large{\underline{ IOT, IFTTT, NodeMCU, Adafruit}}}{April 2021}
-             \vspace{-5pt}
-          \resumeItemListStart
-            \resumeItem{\normalsize{Created a smart home environment using the functionality of NodeMCU and Adafruit server.Implemented Internet of Things(IoT) by integrating several devices such as fans, light bulbs, water motor pumps. \textbf{Provides round-the-clock security, real-time status of the application, temperature control.} }}
-            
-          \resumeItemListEnd 
+        
           
     \resumeSubHeadingListEnd
 
 \vspace{-5pt}
 %
+%-----------EDUCATION-----------
+\section{EDUCATION}
+  \resumeSubHeadingListStart
+    \resumeSubheading  
+      {B.Tech(Electronics and Communication)}{Sonepat, Haryana}
+      {Deenbandhu Chhotu Ram University of Science and Technology }{August 2017 - July 2021 }
+      \resumeItem {CGPA : 7.61}
+                
+  \resumeSubHeadingListEnd
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Class XII (CBSE)}{Karnal,India }
+      {RS Public Senior Secondary }{April 2014 - June 2016}
+      \resumeItem { PCM with Percentage : 90\%}
+     
+  \resumeSubHeadingListEnd
 
 %-----------PROGRAMMING SKILLS-----------
 \section{TECHNICAL SKILLS}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{\normalsize{Languages:}}{ \normalsize{C++, Core Java, CSS, HTML, SQL, XML}} \\
+     \textbf{\normalsize{Languages:}}{ \normalsize{React.JS, Node.JS, Express.JS AWS Cloudwatch, AWS IAM, C++, Core Java, CSS, HTML, SQL, XML}} \\
      \textbf{\normalsize{Developer Tools:}}{ \normalsize{VS Code, Android Studio}} \\
      \textbf{\normalsize{Technologies/Frameworks:}}{\normalsize{ Linux, GitHub, Visual Studio Code, Git}} \\
     }}
